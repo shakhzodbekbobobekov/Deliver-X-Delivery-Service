@@ -8,7 +8,6 @@ import Bonuses from "./Pages/bonuses/Bonuses";
 import About from "./Pages/about/About";
 import FoodMenus from "./Pages/foodMenus/FoodMenus";
 import ToOrder from "./Pages/toOrder/ToOrder";
-import Main from "./Pages/main/Main";
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
           <Route path="/foodMenus" element={<FoodMenus />} />
           <Route path="/toOrder" element={<ToOrder />} />
         </Routes>
-        <Main />
       </Router>
     </div>
   );

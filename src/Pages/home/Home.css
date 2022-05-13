@@ -1,0 +1,27 @@
+.container-home {
+    display: flex;
+    align-items: center;
+}
+
+.left-section p {
+    color: #ff5634;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;    
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+}
+.left-section h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 72px;
+    color: #121212;
+}
+
+.left-section h4 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    color: #656565;
+}
