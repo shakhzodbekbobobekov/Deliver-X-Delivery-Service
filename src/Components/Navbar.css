@@ -1,4 +1,48 @@
-body div {
+.navbar {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar__box-img {
+    width: 16rem;
+    height: 5rem;
+    margin-right: auto;
+}
+
+.navbar__box-img img {
+    width: 100%;
+}
+
+.navbar ul li {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+
+.navbar ul li:not(:last-child){
+    margin-right: 2.5rem;
+
+}
+
+.crimson-li a{
+color: #FF5634;
+}
+
+.crimson-li a:hover {
+    opacity: 0.8;
+}
+
+.navbar ul li a:hover {
+color: #FF5640;
+}
+
+.navbar ul li a:active {
+    opacity: 0.6;
 }
