@@ -1,7 +1,13 @@
-import React from "react";
+import "./Searchbar.css";
 
 function Searchbar() {
-  return <div>Searchbar</div>;
+  return (
+    <div className="searchbar">
+      <form>
+        <input type="text" placeholder="Search..." />
+      </form>
+    </div>
+  );
 }
 
 export default Searchbar;

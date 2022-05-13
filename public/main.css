@@ -5,6 +5,11 @@
     color: #121212;
 }
 
+*:focus {
+    outline: 2px dotted #ff7500;
+    outline-offset: 3px;
+}
+
 html {
     font-size: 62.5%;
 }
