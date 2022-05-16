@@ -18,3 +18,9 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
+
+li a.active {
+    color: white;
+    background: #333;
+    text-decoration: none;
+}
