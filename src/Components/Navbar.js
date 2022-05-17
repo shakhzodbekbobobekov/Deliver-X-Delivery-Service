@@ -27,7 +27,6 @@ function Navbar() {
               <NavLink to="/foodMenus">Food Menus</NavLink>
             </li>
             <li>
-              {" "}
               <NavLink to="/bonuses">Bonuses</NavLink>
             </li>
             <li className="order">
