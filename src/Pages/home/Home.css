@@ -89,8 +89,40 @@
     width: 100%;
 }
 
+.server-order {
+    border-bottom: 1px solid #CACACA;
+    padding-bottom: 5rem;
+}
+
+.server-order h2{
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    color: #656565;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.server-order h2 span {
+    color: #ff5634;
+}
+
+.server-order ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.server-order ul li a {
+    transition: 0.3s linear all;
+}
+
+.server-order ul li a:hover {
+transform: scale(1.1);
+}
+
 /* Media Query */
-@media(min-width: 0) and (max-width: 350px) {
+@media(min-width: 0) and (max-width: 550px) {
     /* .container {
             max-width: 350px;
             width: 100%;

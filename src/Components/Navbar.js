@@ -30,7 +30,7 @@ function Navbar() {
               <NavLink to="/bonuses">Bonuses</NavLink>
             </li>
             <li className="order">
-              <NavLink to="/toOrder">To Order</NavLink>
+              <NavLink to="/toOrder">ToOrder</NavLink>
             </li>
           </ul>
           <Searchbar />
