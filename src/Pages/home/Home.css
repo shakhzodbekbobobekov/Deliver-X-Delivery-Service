@@ -88,3 +88,84 @@
 .context img {
     width: 100%;
 }
+
+/* Media Query */
+@media(min-width: 0) and (max-width: 350px) {
+    .container {
+            max-width: 350px;
+            width: 100%;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        
+
+        .right-section {
+            display: none;
+        }
+
+        .left-section p {
+            font-size: 1.5rem;
+            color: #ff5634;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            text-align: justify;
+        }
+        
+        .left-section h1 {
+            font-weight: 500;
+            font-size: 1.3rem;
+            line-height: 1.5rem;
+            color: #121212;
+            width: 90%;
+            text-align: justify;
+        }
+    
+            .left-section h4 {
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.5rem;
+                color: #656565;
+                margin-top: 0.5rem;
+                width: 50%;
+            }
+            .home-link {
+                display: inline-block;                            
+                border-radius: 0.5rem;
+                padding: 0.5rem 1rem;
+                font-size: 12px;
+                margin-top: 1rem;
+                letter-spacing: 1.2px;
+                transition: 0.3s all linear;
+                font-weight: 400;                
+            }
+
+            /*  */
+            .context {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20rem;
+                height: 6rem;
+                border-top: 1px solid #CACACA;
+                padding-top: 2rem;
+                margin-top: 2rem;
+            }
+            
+            /*  */
+            .middle-section {
+                width: 20rem;
+                height: 25rem;
+            }
+                 .middle-section img {
+                width: 100%;
+            }
+                 .middle-section {
+                position: absolute;
+                top: 5%;
+                left: 50%;
+                transform: translate(20%);
+            }
+}
